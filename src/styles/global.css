@@ -269,7 +269,7 @@ ul a:hover img {
 	box-shadow: var(--box-shadow);
 }
 @media (max-width: 720px) {
-	ul {
+	section ul {
 		gap: 0.5em;
 	}
 	ul li {
@@ -316,6 +316,7 @@ ul a:hover img {
   margin-top: 1rem;
   list-style: none;
   padding: 0;
+  flex-wrap:wrap; 
 }
 
 .tags li {
@@ -324,4 +325,5 @@ ul a:hover img {
   padding: 0.3rem 0.7rem;
   border-radius: 999px;
   font-size: 0.85rem;
+  width:fit-content;
 }
