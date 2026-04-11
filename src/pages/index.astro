@@ -31,9 +31,12 @@ const paginatedPosts = posts.slice(start, end);
 		<main>
 			<div class="text-center heroSection">
 				<Image src={allotmentChar} alt="A cartoon character with gardening equipment" class="indexImage" />
-				<h1>Hey, I'm Charlotte!</h1>
+				<h1>Hey, I'm Charlotte! 👋</h1>
 				<p>
 					Welcome to my blog about gardening, growing food, and all things allotment-related. I started this blog to share my experiences and learnings as I cultivate my own little patch of green. 
+				</p>
+				<p>
+					Whether you're a seasoned gardener or just starting out, I hope you'll find something here that inspires you to get your hands dirty and grow something wonderful. Happy gardening!
 				</p>
 			</div>
 			<section>
@@ -43,9 +46,9 @@ const paginatedPosts = posts.slice(start, end);
 							<li>
 								<a href={`/blog/${post.id}/`}>
 									{post.data.heroImage && (
-										<Image width={720} height={360} src={post.data.heroImage} alt="" />
+										<Image width={720} height={360} src={post.data.heroImage} alt={post.data.title} />
 									)}
-									<h4 class="title">{post.data.title}</h4>
+									<h2 class="title">{post.data.title}</h2> 
 									<p class="date">
 										<FormattedDate date={post.data.pubDate} />
 									</p>

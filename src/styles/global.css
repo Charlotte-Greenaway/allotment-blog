@@ -261,7 +261,7 @@ ul li a {
 	margin: 0;
 	color: rgb(var(--gray));
 }
-ul li a:hover h4,
+ul li a:hover h2,
 ul li a:hover .date {
 	color: rgb(var(--accent));
 }
@@ -320,8 +320,8 @@ ul a:hover img {
 }
 
 .tags li {
-  background: #e6f2e9;
-  color: #3f7d4e;
+  background: #ecc306;
+  color: rgb(var(--gray-dark));
   padding: 0.3rem 0.7rem;
   border-radius: 999px;
   font-size: 0.85rem;

@@ -35,7 +35,7 @@ I knew that not every step of getting my allotment up to speed wasn't going to b
 
 ![greenhouse](../../assets/blog-images/11-04-2026/initial-greenhouse.png)
 
-I had also decided to create a 'mini orchard' in my allotment, not just for the fruit but to attract bees to my plot. I had not expected this to be so much work! I had discovered that due to the huge tree that is positioned to the right of my plot some of my beds were incredibly rooty so that involved alot of digging which we probably should have used something like a pickaxe to pick out but we did eventually manage to get all the trees in with just a shovel. 
+I had also decided to create a 'mini orchard' in my allotment, not just for the fruit but to attract bees to my plot. I had not expected this to be so much work! I had discovered that due to the huge tree that is positioned to the right of my plot some of my beds were incredibly rooty so that involved a lot of digging which we probably should have used something like a pickaxe to pick out but we did eventually manage to get all the trees in with just a shovel. 
 
 After watching loads of youtube videos, I also knew that any trees that I wanted to put in my allotment were going to have to be supported well. I currently have ten apple trees, all at m27/m9 rootstock, two dwarf rootstock cherry trees and four quince C pear trees in the ground which all needed supporting. When erecting the supports I had thought the hardest thing would have been to get the posts into the ground however it was surprisingly difficult to get the wires for the supports at equal tensions. When we would tighten up one of them the others would get loose - this was incredibly frustrating until we bought some wire tensioners which helped considerably. 
 
