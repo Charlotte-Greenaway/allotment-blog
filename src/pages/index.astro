@@ -30,7 +30,7 @@ const paginatedPosts = posts.slice(start, end);
 		<Header />
 		<main>
 			<div class="text-center heroSection">
-				<Image src={allotmentChar} alt="A cartoon character with gardening equipment" class="indexImage" />
+				<Image src={allotmentChar} alt="A cartoon character with gardening equipment" class="indexImage" loading="eager" fetchpriority="high" decoding="async"/>
 				<h1>Hey, I'm Charlotte! 👋</h1>
 				<p>
 					Welcome to my blog about gardening, growing food, and all things allotment-related. I started this blog to share my experiences and learnings as I cultivate my own little patch of green. 

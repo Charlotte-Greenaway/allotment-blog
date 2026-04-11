@@ -49,7 +49,7 @@ const paginatedPosts = posts.slice(start, end);
 							<li>
 								<a href={`/blog/${post.id}/`}>
 									{post.data.heroImage && (
-										<Image width={720} height={360} src={post.data.heroImage} alt={post.data.title} />
+										<Image width={720} height={360} src={post.data.heroImage} alt={post.data.title} loading="eager" fetchpriority="high" decoding="async"/>
 									)}
 									<h4 class="title">{post.data.title}</h4>
 									<p class="date">
