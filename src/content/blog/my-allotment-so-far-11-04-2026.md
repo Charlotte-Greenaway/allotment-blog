@@ -21,7 +21,7 @@ Now I don't believe we actually got many decent onions (they had bolted during t
 
 ## How long was the wait?
 
-After how long my partner had sat on the wait list for over a year for an allotment I knew that I could be waiting for quite some time. I had signed up about nine months previous to get it and I think I was quite lucky that it wasn't such a long wait - and it was well worth it.
+After how long my partner had sat on the wait list for over a year for an allotment I knew that I could be waiting for quite some time. I had signed up about nine months previous to getting it and I think I was quite lucky that it wasn't such a long wait and it was well worth it.
 
 ## What did I think it was going to be like?
 
@@ -31,7 +31,7 @@ After helping my partner with his allotment I had thought that it was going to b
 
 ## What went wrong/unexpected?
 
-I knew that not every step of getting my allotment up to speed was going to be perfect! For example I had bought a small greenhouse for my allotment and had it set up in about half an hour however after one night of it being set up it had already blown into the neighbouring allotment and had come apart - even though it was pegged and staked into the ground. So after some thinking and some handy work, the greenhouse was moved from the edge of the allotment to up against the shed. Using pvc pipe clips and some wood spacers made out of plywood, me and my partner screwed through the back plastic of my greenhouse into the shed and fixed the clips over the poles of the greenhouse to keep it secure - we also put two bags of compost at the bottom of the greenhouse to weigh it down. So far it has survived the recent windy weather we have had! 
+I knew that not every step of getting my allotment up to speed was going to be perfect! For example I had bought a small greenhouse for my allotment and had it set up in about half an hour however after one night of it being up it had already blown into the neighbouring allotment and had come apart - even though it was pegged and staked into the ground. So after some thinking and some handy work, the greenhouse was moved from the edge of the allotment to up against the shed. Using pvc pipe clips and some wood spacers made out of plywood, me and my partner screwed through the back plastic of my greenhouse into the shed and fixed the clips over the poles of the greenhouse to keep it secure - we also put two bags of compost at the bottom of the greenhouse to weigh it down. So far it has survived the recent windy weather we have had! 
 
 ![greenhouse](../../assets/blog-images/11-04-2026/initial-greenhouse.png)
 
