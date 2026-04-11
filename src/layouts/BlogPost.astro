@@ -60,7 +60,18 @@ const { title, description, pubDate, updatedDate, heroImage, tags } = Astro.prop
 		<main>
 			<article>
 				<div class="hero-image">
-					{heroImage && <Image width={1020} height={510} src={heroImage} alt={title} loading="eager" fetchpriority="high" decoding="async" />}
+					{heroImage && <Image 
+						width={1020} 
+						height={510} 
+						src={heroImage} 
+						alt={title}
+						loading="eager"
+						fetchpriority="high"
+						decoding="async" 
+						widths={[400, 600, 800, 933, 1200]}
+						sizes="(max-width: 768px) 100vw, 933px"
+						format="webp"
+						/>}
 				</div>
 				<div class="prose">
 					<div class="title">
