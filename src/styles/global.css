@@ -219,7 +219,7 @@ nav a.active {
 	text-align: center;
 }
 
-ul {
+section ul {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 2rem;
@@ -227,14 +227,14 @@ ul {
 	margin: 0;
 	padding: 0;
 }
-ul li {
+section ul li {
 	width: calc(50% - 1rem);
 }
 ul li * {
 	text-decoration: none;
 	transition: 0.2s ease;
 }
-ul li:first-child {
+section ul li:first-child {
 	width: 100%;
 	margin-bottom: 1rem;
 	text-align: center;
@@ -242,10 +242,10 @@ ul li:first-child {
 ul li:first-child img {
 	width: 100%;
 }
-ul li:first-child .title {
+section ul li:first-child .title {
 	font-size: 2.369rem;
 }
-ul li img {
+section ul li img {
 	margin-bottom: 0.5rem;
 	border-radius: 12px;
 }
@@ -308,4 +308,20 @@ ul a:hover img {
 
 .pagination span {
 	color: rgb(var(--gray));
+}
+
+.tags {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  list-style: none;
+  padding: 0;
+}
+
+.tags li {
+  background: #e6f2e9;
+  color: #3f7d4e;
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
 }
