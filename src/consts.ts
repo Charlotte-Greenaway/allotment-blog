@@ -3,3 +3,4 @@
 
 export const SITE_TITLE = 'Allotment Charlotte';
 export const SITE_DESCRIPTION = 'Welcome to my website!';
+export const BLOG_POSTS_PER_PAGE = 5;

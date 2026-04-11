@@ -283,3 +283,29 @@ ul a:hover img {
 		font-size: 1.563em;
 	}
 }
+
+.pagination {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	margin: 2rem 0;
+}
+
+.pagination a {
+	color: var(--accent);
+	text-decoration: none;
+	padding: 0.5rem 1rem;
+	border: 1px solid var(--accent);
+	border-radius: 4px;
+	transition: background-color 0.2s ease;
+}
+
+.pagination a:hover {
+	background-color: var(--accent);
+	color: white;
+}
+
+.pagination span {
+	color: rgb(var(--gray));
+}

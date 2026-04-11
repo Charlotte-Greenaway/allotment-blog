@@ -1,21 +1,34 @@
 ---
-import BaseHead from '../components/BaseHead.astro';
-import Footer from '../components/Footer.astro';
-import Header from '../components/Header.astro';
-import FormattedDate from '../components/FormattedDate.astro';
+import BaseHead from '../../components/BaseHead.astro';
+import Footer from '../../components/Footer.astro';
+import Header from '../../components/Header.astro';
+import FormattedDate from '../../components/FormattedDate.astro';
 import { Image } from 'astro:assets';
-import allotmentChar from '../assets/allotment-char.png';
-import { SITE_DESCRIPTION, SITE_TITLE, BLOG_POSTS_PER_PAGE } from '../consts';
+import { SITE_DESCRIPTION, SITE_TITLE, BLOG_POSTS_PER_PAGE } from '../../consts';
 import { getCollection } from 'astro:content';
 
 const posts = (await getCollection('blog')).sort(
-	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
 
-const currentPage = 1;
 const postsPerPage = BLOG_POSTS_PER_PAGE;
-const totalPosts = posts.length;
-const totalPages = Math.ceil(totalPosts / postsPerPage);
+const totalPages = Math.ceil(posts.length / postsPerPage);
+
+export async function getStaticPaths() {
+  const posts = (await getCollection('blog')).sort(
+    (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+  );
+
+  const postsPerPage = BLOG_POSTS_PER_PAGE;
+  const totalPages = Math.ceil(posts.length / postsPerPage);
+
+  return Array.from({ length: totalPages - 1 }, (_, i) => ({
+    params: { page: (i + 2).toString() },
+  }));
+}
+
+const currentPage = parseInt(Astro.params.page);
+
 const start = (currentPage - 1) * postsPerPage;
 const end = start + postsPerPage;
 const paginatedPosts = posts.slice(start, end);
@@ -29,13 +42,6 @@ const paginatedPosts = posts.slice(start, end);
 	<body>
 		<Header />
 		<main>
-			<div class="text-center heroSection">
-				<Image src={allotmentChar} alt="A cartoon character with gardening equipment" class="indexImage" />
-				<h1>Hey, I'm Charlotte!</h1>
-				<p>
-					Welcome to my blog about gardening, growing food, and all things allotment-related. I started this blog to share my experiences and learnings as I cultivate my own little patch of green. 
-				</p>
-			</div>
 			<section>
 				<ul>
 					{
@@ -57,7 +63,7 @@ const paginatedPosts = posts.slice(start, end);
 			</section>
 			<nav class="pagination">
 				{currentPage > 1 && (
-					<a href={`/page/${currentPage - 1}`} class="prev">Previous</a>
+					<a href={currentPage-1 == 1 ? `/` : `/page/${currentPage - 1}`} class="prev">Previous</a>
 				)}
 				<span>Page {currentPage} of {totalPages}</span>
 				{currentPage < totalPages && (
