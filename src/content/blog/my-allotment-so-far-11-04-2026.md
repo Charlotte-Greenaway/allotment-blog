@@ -17,7 +17,7 @@ My name is Charlotte and I have an allotment in Devon, UK. I got my allotment in
 
 After spending several months over the summer helping out with my partners allotment I found a love for gardening. Before last year I would spend a majority of my summers indoors playing games or sat behind a screen coding - basically never seeing the outdoors so when my partner first got his allotment I was pretty sure I would have no interest in it. That was until he dragged me up there and we dug out our first bed in his allotment and planted some onions - I believe we planted them around october time - we were outside in the freezing cold digging out this bed but it felt amazing to plant something knowing that the next year we could be eating it. 
 
-Now I don't believe we actually got many decent onions (they had bolted during the summer) but by then I was already hooked. AFter spending a couple months in the summer helping tend to all of the plants we had grown I decided to get onto my local councils waiting list for my own!
+Now I don't believe we actually got many decent onions (they had bolted during the summer) but by then I was already hooked. After spending a couple months in the summer helping tend to all of the plants we had grown I decided to get onto my local councils waiting list for my own!
 
 ## How long was the wait?
 
