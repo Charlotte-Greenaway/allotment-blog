@@ -2,7 +2,7 @@
 title: 'My Allotment So Far'
 description: 'Hey I''m Charlotte and this is a little post about my allotment experience so far.'
 pubDate: 'Apr 11 2026'
-heroImage: '../../assets/blog-images/11-04-2026/allotment-now.png'
+heroImage: '../../assets/blog-images/11-04-2026/allotment-now.jpg'
 tags:
   - fruit-trees
   - greenhouse
@@ -27,13 +27,13 @@ After how long my partner had sat on the wait list for over a year for an allotm
 
 After helping my partner with his allotment I had thought that it was going to be a massive amount of work, his allotment was completely abandoned with the grass growing up to our waists so plenty of digging had to be done before we could even consider getting anything in the ground. However when I saw my allotment, once again, I felt quite lucky as it already had established beds, waterbutts and even a shed! But I still had plenty of weeding and improvements to make before I could get started with the fun stuff. 
 
-![my allotment at the start](../../assets/blog-images/11-04-2026/allotment-start.png)
+![my allotment at the start](../../assets/blog-images/11-04-2026/allotment-start.jpg) 
 
 ## What went wrong/unexpected?
 
 I knew that not every step of getting my allotment up to speed was going to be perfect! For example I had bought a small greenhouse for my allotment and had it set up in about half an hour however after one night of it being up it had already blown into the neighbouring allotment and had come apart - even though it was pegged and staked into the ground. So after some thinking and some handy work, the greenhouse was moved from the edge of the allotment to up against the shed. Using pvc pipe clips and some wood spacers made out of plywood, me and my partner screwed through the back plastic of my greenhouse into the shed and fixed the clips over the poles of the greenhouse to keep it secure - we also put two bags of compost at the bottom of the greenhouse to weigh it down. So far it has survived the recent windy weather we have had! 
 
-![greenhouse](../../assets/blog-images/11-04-2026/initial-greenhouse.png)
+![greenhouse](../../assets/blog-images/11-04-2026/initial-greenhouse.jpg)
 
 I had also decided to create a 'mini orchard' in my allotment, not just for the fruit but to attract bees to my plot. I had not expected this to be so much work! I had discovered that due to the huge tree that is positioned to the right of my plot some of my beds were incredibly rooty so that involved a lot of digging which we probably should have used something like a pickaxe to pick out but we did eventually manage to get all the trees in with just a shovel. 
 
