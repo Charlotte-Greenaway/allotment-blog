@@ -227,8 +227,10 @@ section ul {
 	margin: 0;
 	padding: 0;
 }
-section ul li {
-	width: calc(50% - 1rem);
+@media (width >= 1250px) {
+	section ul li {
+		width: calc(50% - 1rem);
+	}
 }
 ul li * {
 	text-decoration: none;
@@ -274,7 +276,6 @@ ul a:hover img {
 	}
 	ul li {
 		width: 100%;
-		text-align: center;
 	}
 	ul li:first-child {
 		margin-bottom: 0;
